@@ -1,0 +1,10 @@
+Algorithms,meanWinnerRank,rateTrueWinners,rateWinner<NULL
+"MyVoteSys <α=0.50, β=0.33, γ=____, MaxVariance>",1.3373333333333333,0.7533333333333333,0.0
+"MyVoteSys <α=0.50, β=0.33, γ=____, MaxStDev>",1.3373333333333333,0.7533333333333333,0.0
+"MyVoteSys <α=0.50, β=0.33, γ=____, MinEntropy>",1.3426666666666667,0.752,0.0
+MaxVarianceWeightedSumWins<α=0>,1.4546666666666668,0.712,0.0
+MaxVarianceWeightedSumWins<α=0.5>,1.5,0.7,0.0
+MinEntropyWeightedSumWins<α=0>,5.874666666666666,0.13066666666666665,0.17733333333333334
+MinEntropyWeightedSumWins<α=0.5>,5.8853333333333335,0.13066666666666665,0.17866666666666667
+MinEntropyWeightedSumWins2<α=0>,17.425333333333334,0.0,0.7346666666666667
+MinEntropyWeightedSumWins2<α=0.5>,18.956,0.0,0.908

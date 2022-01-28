@@ -1,0 +1,127 @@
+numCandiates : 20
+numVoters : 750
+numElections : 750
+columnBlindness : 9
+epochs : 133
+trainableLayerCount : 1
+crowdBuildMethod : {'name': 'standardDistribution', 'mean': 18750, 'standardDeviation': 266}
+dataSetName : mySynthetic
+predictedFeature : y
+
+========= SIMULATION RESULTS ========
+Metrics                                     meanWinnerRank  rateTrueWinners  rateWinner<NULL
+Algorithms
+crowd-Mean                                           2.366            0.470            0.005
+crowd-Median                                         2.366            0.470            0.005
+MyVoteSys <α=0.50, β=____, γ=0.80, MinEntropy>       6.717            0.165            0.234
+MyVoteSys <α=0.50, β=____, γ=0.66, MinEntropy>       6.717            0.165            0.234
+MyVoteSys <α=0.50, β=0.33, γ=____, MinEntropy>       6.717            0.165            0.234
+MyVoteSys <α=0.50, β=0.33, γ=0.80, MinEntropy>       6.717            0.165            0.234
+MyVoteSys <α=0.50, β=0.33, γ=0.66, MinEntropy>       6.717            0.165            0.234
+MyVoteSys <α=0.50, β=____, γ=____, MinEntropy>       6.717            0.165            0.234
+MyVoteSys <α=0.50, β=____, γ=____, First>            6.721            0.164            0.234
+MyVoteSys <α=0.50, β=____, γ=0.80, First>            6.721            0.164            0.234
+MyVoteSys <α=0.50, β=____, γ=0.66, First>            6.721            0.164            0.234
+MyVoteSys <α=0.50, β=0.33, γ=____, First>            6.721            0.164            0.234
+MyVoteSys <α=0.50, β=0.33, γ=0.80, First>            6.721            0.164            0.234
+MyVoteSys <α=0.50, β=0.33, γ=0.66, First>            6.721            0.164            0.234
+MyVoteSys <α=0.50, β=____, γ=0.80, MaxStDev>         7.701            0.125            0.300
+MyVoteSys <α=0.50, β=0.33, γ=0.80, MaxStDev>         7.701            0.125            0.300
+MyVoteSys <α=0.50, β=____, γ=0.66, MaxVariance>      7.701            0.125            0.300
+MyVoteSys <α=0.50, β=0.33, γ=____, MaxStDev>         7.701            0.125            0.300
+MyVoteSys <α=0.50, β=____, γ=____, MaxStDev>         7.701            0.125            0.300
+MyVoteSys <α=0.50, β=____, γ=0.80, MaxVariance>      7.701            0.125            0.300
+MyVoteSys <α=0.50, β=0.33, γ=0.66, MaxVariance>      7.701            0.125            0.300
+MyVoteSys <α=0.50, β=____, γ=0.66, MaxStDev>         7.701            0.125            0.300
+MyVoteSys <α=0.50, β=____, γ=____, MaxVariance>      7.701            0.125            0.300
+MyVoteSys <α=0.50, β=0.33, γ=0.80, MaxVariance>      7.701            0.125            0.300
+MyVoteSys <α=0.50, β=0.33, γ=0.66, MaxStDev>         7.701            0.125            0.300
+MyVoteSys <α=0.50, β=0.33, γ=____, MaxVariance>      7.701            0.125            0.300
+MaxStandardDeviationWeightedSumWins<α=0>             8.320            0.085            0.365
+MyVoteSys <α=0.50, β=0.33, γ=0.66, MinVariance>      8.456            0.108            0.366
+MyVoteSys <α=0.50, β=____, γ=0.66, MinVariance>      8.456            0.108            0.366
+bestVoter (Dictatorship)                             8.580            0.090            0.372
+MaxVarianceWeightedSumWins<α=0>                      8.616            0.078            0.390
+MaxStandardDeviationWeightedSumWins<α=0.5>           8.941            0.064            0.413
+MaxVarianceWeightedSumWins<α=0.5>                    8.974            0.068            0.418
+MaxStandardDeviationProportionalWeightedSumWins<α=0> 9.216            0.052            0.432
+MyVoteSys <α=0.66, β=0.33, γ=0.80, First>            9.230            0.082            0.429
+MyVoteSys <α=0.50, β=____, γ=0.66, Last>             9.230            0.082            0.429
+MyVoteSys <α=0.66, β=0.33, γ=____, First>            9.230            0.082            0.429
+MyVoteSys <α=0.66, β=____, γ=0.80, First>            9.230            0.082            0.429
+MyVoteSys <α=0.50, β=0.33, γ=0.66, Last>             9.230            0.082            0.429
+MyVoteSys <α=0.66, β=____, γ=____, First>            9.230            0.082            0.429
+MyVoteSys <α=0.66, β=0.33, γ=0.80, MaxStDev>         9.237            0.084            0.433
+MyVoteSys <α=0.66, β=____, γ=0.80, MaxVariance>      9.237            0.084            0.433
+MyVoteSys <α=0.66, β=0.33, γ=0.80, MaxVariance>      9.237            0.084            0.433
+MyVoteSys <α=0.66, β=____, γ=0.80, MaxStDev>         9.237            0.084            0.433
+MyVoteSys <α=0.66, β=____, γ=____, MaxVariance>      9.242            0.082            0.432
+MyVoteSys <α=0.66, β=0.33, γ=____, MaxStDev>         9.242            0.082            0.432
+MyVoteSys <α=0.66, β=0.33, γ=____, MaxVariance>      9.242            0.082            0.432
+MyVoteSys <α=0.66, β=____, γ=____, MaxStDev>         9.242            0.082            0.432
+MyVoteSys <α=0.66, β=____, γ=0.80, MinEntropy>       9.258            0.081            0.434
+MyVoteSys <α=0.66, β=0.33, γ=0.80, MinEntropy>       9.258            0.081            0.434
+MaxVarianceProportionalWeightedSumWins<α=0>          9.258            0.052            0.438
+MyVoteSys <α=0.66, β=0.33, γ=____, MinEntropy>       9.264            0.080            0.434
+MyVoteSys <α=0.66, β=____, γ=____, MinEntropy>       9.264            0.080            0.434
+MyVoteSys <α=0.50, β=____, γ=0.66, MaxEntropy>       9.269            0.081            0.433
+MyVoteSys <α=0.50, β=0.33, γ=0.66, MaxEntropy>       9.269            0.081            0.433
+MinEntropyWeightedSumWins2<α=0>                      9.328            0.088            0.428
+MinEntropyProportionalWeightedSumWins2<α=0>          9.328            0.088            0.428
+MinEntropyWeightedSumWins<α=0>                       9.328            0.088            0.428
+MinEntropyProportionalWeightedSumWins<α=0>           9.328            0.088            0.428
+MaxStandardDeviationProportionalWeightedSumWins<α=0. 9.336            0.048            0.442
+MinEntropyWeightedSumWins2<α=0.5>                    9.349            0.088            0.429
+MinEntropyProportionalWeightedSumWins<α=0.5>         9.349            0.088            0.429
+MinEntropyProportionalWeightedSumWins2<α=0.5>        9.349            0.088            0.429
+MinEntropyWeightedSumWins<α=0.5>                     9.349            0.088            0.429
+MaxVarianceProportionalWeightedSumWins<α=0.5>        9.362            0.050            0.448
+MyVoteSys <α=0.50, β=0.33, γ=0.80, MinVariance>      9.393            0.058            0.461
+MyVoteSys <α=0.50, β=____, γ=0.80, MinVariance>      9.393            0.058            0.461
+MyVoteSys <α=0.50, β=____, γ=0.80, MaxEntropy>       9.409            0.056            0.460
+MyVoteSys <α=0.50, β=0.33, γ=0.80, MaxEntropy>       9.409            0.056            0.460
+MyVoteSys <α=0.66, β=____, γ=0.80, MaxEntropy>       9.412            0.056            0.460
+MyVoteSys <α=0.66, β=0.33, γ=0.80, MaxEntropy>       9.412            0.056            0.460
+MyVoteSys <α=0.50, β=____, γ=0.80, Last>             9.448            0.056            0.465
+MyVoteSys <α=0.50, β=0.33, γ=0.80, Last>             9.448            0.056            0.465
+MyVoteSys <α=0.80, β=____, γ=____, First>            9.448            0.056            0.465
+MyVoteSys <α=0.66, β=0.33, γ=0.80, Last>             9.448            0.056            0.465
+MyVoteSys <α=0.66, β=____, γ=0.80, Last>             9.448            0.056            0.465
+MyVoteSys <α=0.80, β=0.33, γ=____, First>            9.448            0.056            0.465
+MyVoteSys <α=0.80, β=____, γ=____, MinEntropy>       9.450            0.056            0.464
+MyVoteSys <α=0.80, β=0.33, γ=____, MinEntropy>       9.450            0.056            0.464
+MyVoteSys <α=0.66, β=____, γ=0.80, MinVariance>      9.485            0.056            0.466
+MyVoteSys <α=0.66, β=0.33, γ=0.80, MinVariance>      9.485            0.056            0.466
+MyVoteSys <α=0.50, β=____, γ=____, MinVariance>      9.581            0.056            0.473
+MyVoteSys <α=0.50, β=0.33, γ=____, MinVariance>      9.581            0.056            0.473
+MyVoteSys <α=0.80, β=____, γ=____, MinVariance>      9.605            0.053            0.474
+MyVoteSys <α=0.66, β=0.33, γ=____, MinVariance>      9.605            0.053            0.474
+MyVoteSys <α=0.66, β=____, γ=____, MinVariance>      9.605            0.053            0.474
+MyVoteSys <α=0.80, β=0.33, γ=____, MinVariance>      9.605            0.053            0.474
+MyVoteSys <α=0.80, β=____, γ=____, MaxVariance>      9.821            0.033            0.470
+MyVoteSys <α=0.80, β=0.33, γ=____, MaxVariance>      9.821            0.033            0.470
+MyVoteSys <α=0.80, β=0.33, γ=____, MaxStDev>         9.821            0.033            0.470
+MyVoteSys <α=0.80, β=____, γ=____, MaxStDev>         9.821            0.033            0.470
+MyVoteSys <α=0.50, β=____, γ=____, Last>             9.886            0.030            0.474
+MyVoteSys <α=0.50, β=____, γ=____, MaxEntropy>       9.886            0.030            0.474
+MyVoteSys <α=0.80, β=____, γ=____, MaxEntropy>       9.886            0.030            0.474
+MyVoteSys <α=0.80, β=0.33, γ=____, MaxEntropy>       9.886            0.030            0.474
+MyVoteSys <α=0.66, β=____, γ=____, MaxEntropy>       9.886            0.030            0.474
+MyVoteSys <α=0.66, β=0.33, γ=____, MaxEntropy>       9.886            0.030            0.474
+MyVoteSys <α=0.80, β=____, γ=____, Last>             9.886            0.030            0.474
+MyVoteSys <α=0.66, β=____, γ=____, Last>             9.886            0.030            0.474
+MyVoteSys <α=0.80, β=0.33, γ=____, Last>             9.886            0.030            0.474
+MyVoteSys <α=0.66, β=0.33, γ=____, Last>             9.886            0.030            0.474
+MyVoteSys <α=0.50, β=0.33, γ=____, Last>             9.886            0.030            0.474
+MyVoteSys <α=0.50, β=0.33, γ=____, MaxEntropy>       9.886            0.030            0.474
+SingleTransferableVote                               0.630            0.049            0.521
+PreferentialBlockVoting                              0.632            0.049            0.521
+InstantRunoffVoting                                  0.632            0.049            0.521
+FirstPastThePost (but without tactical voting)       0.742            0.048            0.528
+
+Metrics                   val_MeanSquaredErr
+Algorithms
+crowd-Mean                      18409.195312
+crowd-Median                    18410.566406
+bestVoter (Dictatorship)        17580.296875
+
